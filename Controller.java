@@ -20,6 +20,9 @@ public class Controller
     
     public Controller()
     {
+        
+        System.out.println("Debug Client System Message Board: \n");
+        
         mainframe = new JFrame("Client");
         mainframe.setDefaultCloseOperation(3);
         mainframe.setPreferredSize(new Dimension(500,400));
